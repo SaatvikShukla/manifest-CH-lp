@@ -30,7 +30,7 @@ Now enter the following to initialize the repository:
 Initialising Cyanhacker
 ---------------
 
-    repo init -u git://github.com/CyanHacker/manifest.git -b lollipop-5.0
+    repo init -u git://github.com/CyanHacker-Lollipop/manifest.git -b lollipop-5.0
 
 Building
 ---------------
