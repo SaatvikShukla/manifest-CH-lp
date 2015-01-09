@@ -5,7 +5,7 @@
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
 
-  <remote  name="cm"
+  <remote  name="github"
            fetch=".."
            review="review.cyanogenmod.org" />
 
@@ -22,7 +22,7 @@
            fetch="https://github.com/TheMuppets/" />
 
   <default revision="refs/heads/cm-12.0"
-           remote="cm"
+           remote="github"
            sync-c="true"
            sync-j="4" />
 
