@@ -560,7 +560,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="vendor/ch" name="vendor_ch" />
   
-  <!--- Custom Toolchains --->
+  <!--Custom Toolchains-->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7-linaro" name="UBERUTILS/LINARO-OTTER" remote="gh" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-linaro" name="UBERUTILS/linaro-arm-eabi-4.8" remote="gh" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7-sm" name="UBERUTILS/arm-eabi-4.7" remote="gh" revision="master" />
