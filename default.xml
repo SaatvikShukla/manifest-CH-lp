@@ -34,10 +34,12 @@
 
   <project path="android" name="manifest" />
 
+<<<<<<< HEAD
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" remote="cm-review" revision="refs/heads/cm-12.0" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" remote="cm-review" revision="refs/heads/cm-12.0" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" remote="cm-review" revision="refs/heads/cm-12.0" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" remote="cm-review" revision="refs/heads/cm-12.0" />
+  <project path="cts" name="CyanogenMod/android_cts" groups="cts,pdk-cw-fs" remote="cm-review" revision="refs/heads/cm-12.0" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="developers/build" name="platform/developers/build" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="developers/demos" name="platform/developers/demos" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
@@ -530,10 +532,14 @@
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" groups="pdk,linux" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" groups="pdk,linux" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
+  <project path="prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" groups="pdk,linux,mips" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
+  <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.8" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.8" groups="pdk,linux,mips" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
+  <project path="prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.8" name="platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.8" groups="pdk,linux,mips" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.8" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.8" groups="pdk,linux,x86" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" groups="pdk,linux,x86" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="prebuilts/gradle-plugin" name="platform/prebuilts/gradle-plugin" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="prebuilts/libs/libedit" name="platform/prebuilts/libs/libedit" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
+  <project path="prebuilts/maven_repo/android" name="platform/prebuilts/maven_repo/android" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk,tradefed" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
@@ -542,6 +548,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="sdk" name="platform/sdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
+<<<<<<< HEAD
   <project path="system/core" name="CyanogenMod/android_system_core" groups="pdk" remote="cm-review" revision="refs/heads/cm-12.0" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" groups="pdk" remote="cm-review" revision="refs/heads/cm-12.0" />
   <project path="system/extras/su" name="CyanogenMod/android_system_extras_su" remote="cm-review" revision="refs/heads/cm-12.0" />
@@ -551,8 +558,24 @@
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" remote="cm-review" revision="refs/heads/cm-12.0" />
   <project path="system/security" name="CyanogenMod/android_system_security" groups="pdk" remote="cm-review" revision="refs/heads/cm-12.0" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" groups="pdk" remote="cm-review" revision="refs/heads/cm-12.0" />
+=======
+  <project path="system/core" name="CyanogenMod/android_system_core" groups="pdk" />
+  <project path="system/extras" name="CyanogenMod/android_system_extras" groups="pdk" />
+  <project path="system/extras/su" name="CyanogenMod/android_system_extras_su" />
+  <project path="system/keymaster" name="CyanogenMod/android_system_keymaster" groups="pdk" />
+  <project path="system/media" name="CyanogenMod/android_system_media" groups="pdk" />
+  <project path="system/netd" name="CyanogenMod/android_system_netd" groups="pdk" />
+  <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" />
+  <project path="system/security" name="CyanogenMod/android_system_security" groups="pdk" />
+  <project path="system/vold" name="CyanogenMod/android_system_vold" groups="pdk" />
+  <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
+  <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
+>>>>>>> parent of b384803... Manifest: Remove some useless repos
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="tools/build" name="platform/tools/build" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
+  <project path="tools/emulator" name="platform/tools/emulator" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
+  <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
+  <project path="tools/external/gradle" name="platform/tools/external/gradle" groups="tools" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="tools/loganalysis" name="platform/tools/loganalysis" groups="notdefault,tradefed" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
