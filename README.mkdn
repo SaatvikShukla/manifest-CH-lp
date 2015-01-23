@@ -1,3 +1,4 @@
+![alt text](http://fs2.directupload.net/images/150119/dyk4nrof.jpg "CyanHacker")
 CyanHacker
 ===========
 To get started with CyanHacker, you'll need to get
@@ -35,19 +36,87 @@ Initialising Cyanhacker
 Building
 ---------------
 
-if you want to do a clean build, type:
-    make clean
+	./ build.sh [options] [device]
+	
+Options:(more to come)
+-c# Cleanin options before build:
+  1 - make clobber
+  2 - make dirty
+  3 - make magic
+  4 - make kernelclean
+-j# Set jobs
+-s  Sync before build
 
-    repo sync -f
+Example:
+bash build.sh -c1 -j18 hammerhead
 
-    . build/envsetup.sh
+Supported Devices
+---------------
 
-    breakfast DEVICE && mka bacon
-
+	m8
+	jfltexx
+	hammerhead
+	mako
+	sirius
+	d855
+	falcon
+	bacon
+	
 
 Submitting Patches
 ------------------
+[Our Gerrit](https://review.gerrithub.io/#/admin/projects/?filter=CyanHacker)
 
-soon
-if you want to submit patches now, please conatct me
+Setup: 
+(Windows: Use Git PowerShell, Download)
+(Lines marked with # are for Linux users only)
+(Lines marked with * are for Windows users only)
 
+	#sudo apt-get install git
+	git config --global user.email "your-email@domain.com"
+	git config --global user.name "your-username"
+	cd ~/.ssh
+	ssh-keygen -t rsa -C "your-email@domain.com"
+cat id_rsa.pub
+//go to gerrithub settings → ssh public keys
+//click on add key
+//copy the content of ~/.shh/id_rsa.pub to the box in gerrit settings
+	#sudo apt-get install python-pip
+	#sudo pip install git-review
+	#git config --global review.review.gerrithub.io.username "gerrit username"
+	#git config --global review.review.gerrithub.io.email "email you registered with"
+
+Uploading a change:
+	#ssh-add (only if you get errors while pushing)
+	git clone ssh://USERNAME@review.gerrithub.io:29418/CyanHacker-Lollipop/REPONAME 
+	scp -p -P 29418 USERNAME@review.gerrithub.io:hooks/commit-msg REPONAME/.git/hooks/
+	cd REPONAME
+//make your changes
+	git add FILENAME OF THE CHANGES FILE
+or
+	git add --all or git add -A  //to add all changed files to your next commit
+	git commit -s
+#//a nano will pop up where you can enter the commit message, first line is the title, the rest will be the change description
+	#cntr+o
+	#cntr+x
+*//a text editor will pop up where you can enter the commit message, first line is the title, the rest will be the change description
+*//save the file
+*//close the text editor
+	git push origin HEAD:refs/for/BRANCHNAME
+
+Uploading a Patch-Set:
+//change the files you want
+	git add FILENAME OF THE CHANGES FILE
+or
+	git add --all or git add -A  //to add all changed files to your next commit
+	git commit --amend
+	git push origin HEAD:refs/for/BRANCHNAME 
+	
+Becoming a part of CyanHacker
+------------------	
+
+Contribution
+If you want to contribute to this project in any way, whether it´s becoming a developer of CyanHacker or a manitainer or even something else everything is highly appreciated. Just contact me .
+
+Support this ROM for another device
+If you want to build this ROM for another device and support it there, feel free to do that, it´s greatly appreciated, just contact me and I´ll add support for this specifiy device.
