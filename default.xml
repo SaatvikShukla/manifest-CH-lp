@@ -437,7 +437,7 @@
   <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="cm-review" revision="refs/heads/cm-12.0" />
   <!-- <project path="packages/apps/CMHome" name="CyanogenMod/android_packages_apps_CMHome" remote="cm-review" revision="refs/heads/cm-12.0" /> -->
   <project path="packages/apps/CMUpdater" name="CyanogenMod/android_packages_apps_CMUpdater" remote="cm-review" revision="refs/heads/cm-12.0" />
-  <project path="packages/apps/CMWallpapers" name="CyanogenMod/android_packages_apps_CMWallpapers" remote="cm-review" revision="refs/heads/cm-12.0" />
+  <project path="packages/apps/CMWallpapers" name="packages_apps_CMWallpapers" />
   <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" remote="cm-review" revision="refs/heads/cm-12.0" />
   <project path="packages/apps/ContactsCommon" name="CyanogenMod/android_packages_apps_ContactsCommon" remote="cm-review" revision="refs/heads/cm-12.0" />
   <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" remote="cm-review" revision="refs/heads/cm-12.0" />
@@ -457,7 +457,7 @@
   <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" remote="cm-review" revision="refs/heads/cm-12.0" />
   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" remote="cm-review" revision="refs/heads/cm-12.0" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" remote="cm-review" revision="refs/heads/cm-12.0" />
-  <project path="packages/apps/SetupWizard" name="CyanogenMod/android_packages_apps_SetupWizard" remote="cm-review" revision="refs/heads/cm-12.0" />
+  <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" />
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" remote="cm-review" revision="refs/heads/cm-12.0" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" remote="cm-review" revision="refs/heads/cm-12.0" />
