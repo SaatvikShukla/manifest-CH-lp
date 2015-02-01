@@ -387,12 +387,14 @@
   <project path="hardware/nvidia/audio" name="CyanogenMod/android_hardware_nvidia_audio" groups="nvidia_audio" remote="cm-review" revision="refs/heads/cm-12.0" />
   <project path="hardware/nvidia/tegra124" name="CyanogenMod/android_hardware_nvidia_tegra124" groups="tegra124" remote="cm-review" revision="refs/heads/cm-12.0" />
   <project path="hardware/qcom/audio/default" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="cm-review" revision="refs/heads/cm-12.0" />
+  <project path="hardware/qcom/audio-caf/apq8084" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-12.0-caf-8084" remote="cm-review"/>
   <project path="hardware/qcom/audio-caf/msm8960" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="cm-review" revision="cm-12.0-caf-8960" />
   <project path="hardware/qcom/audio-caf/msm8226" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="cm-review" revision="cm-12.0-caf-8226" />
   <project path="hardware/qcom/audio-caf/msm8974" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="cm-review" revision="cm-12.0-caf-8974" />
   <project path="hardware/qcom/audio-caf/msm8916" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="cm-review" revision="cm-12.0-caf-8916" />
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" remote="cm-review" revision="refs/heads/cm-12.0" />
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" groups="qcom,qcom_display" remote="cm-review" revision="refs/heads/cm-12.0" />
+  <project path="hardware/qcom/display-caf/apq8084" name="CyanogenMod/android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.0-caf-8084" remote="cm-review"/>
   <project path="hardware/qcom/display-caf/msm8960" name="CyanogenMod/android_hardware_qcom_display" groups="qcom,qcom_display" remote="cm-review" revision="cm-12.0-caf-8960" />
   <project path="hardware/qcom/display-caf/msm8226" name="CyanogenMod/android_hardware_qcom_display" groups="qcom,qcom_display" remote="cm-review" revision="cm-12.0-caf-8226" />
   <project path="hardware/qcom/display-caf/msm8974" name="CyanogenMod/android_hardware_qcom_display" groups="qcom,qcom_display" remote="cm-review" revision="cm-12.0-caf-8974" />
@@ -400,6 +402,7 @@
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" groups="qcom" remote="cm-review" revision="refs/heads/cm-12.0" />
   <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" groups="qcom" remote="cm-review" revision="refs/heads/cm-12.0" />
   <project path="hardware/qcom/media/default" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="cm-review" revision="refs/heads/cm-12.0" />
+  <project path="hardware/qcom/media-caf/apq8084" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-12.0-caf-8084" remote="cm-review"/>
   <project path="hardware/qcom/media-caf/msm8960" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="cm-review" revision="cm-12.0-caf-8960" />
   <project path="hardware/qcom/media-caf/msm8226" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="cm-review" revision="cm-12.0-caf-8226" />
   <project path="hardware/qcom/media-caf/msm8974" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="cm-review" revision="cm-12.0-caf-8974" />
@@ -574,11 +577,6 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-lm" name="hyper-toolchains/LinaroMod-androideabi-4.8" remote="gh" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-lm" name="hyper-toolchains/LinaroMod-androideabi-4.9" remote="gh" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-lm" name="hyper-toolchains/LinaroMod-arm-eabi-4.9" remote="gh" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-sn" name="hyper-toolchains/SaberNaro-arm-eabi-4.9" remote="gh" revision="master" />
-  
-  <project path="hardware/qcom/audio-caf/apq8084" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-12.0-caf-8084" remote="cm-review"/>
-  <project path="hardware/qcom/display-caf/apq8084" name="CyanogenMod/android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.0-caf-8084" remote="cm-review"/>
-  <project path="hardware/qcom/media-caf/apq8084" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-12.0-caf-8084" remote="cm-review"/>
-  
-  
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-sn" name="hyper-toolchains/SaberNaro-arm-eabi-4.9" remote="gh" revision="master" />    
+
 </manifest>
