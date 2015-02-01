@@ -576,5 +576,9 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-lm" name="hyper-toolchains/LinaroMod-arm-eabi-4.9" remote="gh" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-sn" name="hyper-toolchains/SaberNaro-arm-eabi-4.9" remote="gh" revision="master" />
   
+  <project path="hardware/qcom/audio-caf/apq8084" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-12.0-caf-8084" remote="cm-review"/>
+  <project path="hardware/qcom/display-caf/apq8084" name="CyanogenMod/android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.0-caf-8084" remote="cm-review"/>
+  <project path="hardware/qcom/media-caf/apq8084" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-12.0-caf-8084" remote="cm-review"/>
+  
   
 </manifest>
