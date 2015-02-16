@@ -7,12 +7,13 @@
            revision="refs/tags/android-5.0.2_r1" />
 
   <remote  name="cm"
-           fetch="https://github.com/Cyanogenmod/" />
+           fetch="https://github.com/Cyanogenmod/"
+           revision="cm-12.0" />
 		   
   <remote  name="cm-review"
            fetch=".."
            review="review.cyanogenmod.org" 
-	   revision="refs/heads/cm-12.0" />	
+	       revision="refs/heads/cm-12.0" />	
 
   <remote  name="gh"
            fetch="https://github.com/" />
